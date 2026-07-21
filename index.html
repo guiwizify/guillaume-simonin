@@ -3,11 +3,68 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Guillaume Simonin — Auteur &amp; conférencier en éducation financière</title>
-<meta name="description" content="Créateur des feuilles volantes, auteur best-seller (40 000 ex.), suivi par 150 000 personnes, chroniqueur BFM Business. Je fais comprendre la finance à une salle entière. Réservez une conférence." />
+<title>Guillaume Simonin · Auteur &amp; conférencier en éducation financière</title>
+<meta name="description" content="Créateur des feuilles volantes, auteur best-seller et chroniqueur BFM Business. Je fais comprendre la finance à une salle entière. Réservez une conférence." />
+<link rel="canonical" href="https://guillaumesimonin.fr/" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:site_name" content="Guillaume Simonin" />
+<meta property="og:title" content="Guillaume Simonin · Auteur &amp; conférencier en éducation financière" />
+<meta property="og:description" content="Créateur des feuilles volantes, auteur best-seller et chroniqueur BFM Business. Je fais comprendre la finance à une salle entière." />
+<meta property="og:url" content="https://guillaumesimonin.fr/" />
+<meta property="og:image" content="https://guillaumesimonin.fr/illustrations/og-image.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Guillaume Simonin sur scène lors de son talk TEDx" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@GuiSimonin" />
 <link rel="stylesheet" href="tokens.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="ds2.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://guillaumesimonin.fr/#person",
+      "name": "Guillaume Simonin",
+      "url": "https://guillaumesimonin.fr/",
+      "image": "https://guillaumesimonin.fr/illustrations/og-image.jpg",
+      "jobTitle": "Auteur et conférencier en éducation financière",
+      "description": "Créateur des feuilles volantes, auteur du Guide visuel d'éducation financière, chroniqueur BFM Business et speaker TEDx. Ex-conseiller en gestion de patrimoine, fondateur de Wizify.",
+      "knowsAbout": ["éducation financière", "finances personnelles", "investissement", "gestion de patrimoine"],
+      "worksFor": { "@type": "Organization", "name": "Wizify", "url": "https://wizify.fr/" },
+      "sameAs": [
+        "https://www.linkedin.com/in/guillaume-simonin/",
+        "https://x.com/GuiSimonin",
+        "https://www.instagram.com/gui.simonin/",
+        "https://www.youtube.com/@decomplex-finance"
+      ]
+    },
+    {
+      "@type": "Book",
+      "name": "Le guide visuel d'éducation financière",
+      "author": { "@id": "https://guillaumesimonin.fr/#person" },
+      "url": "https://www.amazon.fr/guide-visuel-d%C3%A9ducation-financi%C3%A8re-conseiller/dp/2818811821",
+      "isbn": "2818811821",
+      "inLanguage": "fr"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://guillaumesimonin.fr/#website",
+      "url": "https://guillaumesimonin.fr/",
+      "name": "Guillaume Simonin",
+      "inLanguage": "fr",
+      "publisher": { "@id": "https://guillaumesimonin.fr/#person" }
+    }
+  ]
+}
+</script>
 <style>
   html,body{margin:0;padding:0;background:#fff}
   .of-site a{color:var(--of-blue)}
@@ -40,7 +97,7 @@
   /* Hero visual — photo + feuille float */
   .gs-hero__visual{position:relative;min-height:460px;display:flex;align-items:center;justify-content:center}
   .gs-photo{position:relative;width:360px;height:440px;border-radius:24px;overflow:hidden;box-shadow:0 32px 64px rgba(0,0,0,.28),0 8px 20px rgba(0,0,0,.12);border:6px solid #fff;z-index:2}
-  .gs-hero__photo{width:100%;max-width:470px;display:block;margin:0 auto;position:relative;z-index:2;filter:drop-shadow(0 30px 55px rgba(0,0,0,.5));-webkit-mask-image:linear-gradient(to bottom,#000 80%,transparent 98%);mask-image:linear-gradient(to bottom,#000 80%,transparent 98%)}
+  .gs-hero__photo{width:100%;max-width:470px;height:auto;display:block;margin:0 auto;position:relative;z-index:2;filter:drop-shadow(0 30px 55px rgba(0,0,0,.5));-webkit-mask-image:linear-gradient(to bottom,#000 80%,transparent 98%);mask-image:linear-gradient(to bottom,#000 80%,transparent 98%)}
   .gs-hbadge{position:absolute;z-index:4;display:flex;align-items:center;gap:10px;background:linear-gradient(rgba(18,22,60,.55),rgba(18,22,60,.55)),rgba(255,255,255,.1);-webkit-backdrop-filter:blur(14px) saturate(150%);backdrop-filter:blur(14px) saturate(150%);border:1px solid rgba(255,255,255,.3);border-radius:14px;padding:11px 15px;box-shadow:0 12px 30px rgba(0,0,0,.4)}
   .gs-hbadge__ic{background:none;color:#fff;display:flex;align-items:center;justify-content:center;flex:none}
   .gs-hbadge__ic svg{width:28px;height:28px}
@@ -244,7 +301,7 @@
   .gs-book{display:grid;grid-template-columns:.75fr 1.25fr;gap:52px;align-items:center}
   .gs-book__cover{width:75%;margin:0 auto;filter:drop-shadow(0 30px 50px rgba(0,0,0,.5));transition:transform 300ms var(--of-ease),filter 300ms var(--of-ease)}
   .gs-book__cover:hover{transform:translateY(-10px) rotate(-2deg) scale(1.03);filter:drop-shadow(0 42px 66px rgba(0,0,0,.62))}
-  .gs-book__cover img{width:100%;display:block}
+  .gs-book__cover img{width:100%;height:auto;display:block}
   .gs-book__enc{margin-top:22px;padding:20px 22px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.16);border-radius:14px;display:flex;flex-direction:column;gap:10px}
   .gs-book__enc-t{font-size:15px;font-weight:700;color:#fff}
   .gs-book__enc-d{font-size:13.5px;color:rgba(255,255,255,.72);line-height:1.5}
@@ -363,7 +420,7 @@
   .gs-feuilles-split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
   .gs-fan{position:relative;height:440px}
   .gs-fan__card{position:absolute;top:50%;left:50%;width:210px;transition:transform 300ms var(--of-ease)}
-  .gs-fan__card img{width:100%;display:block;border-radius:0 0 0 17px;box-shadow:0 26px 52px rgba(0,0,0,.34)}
+  .gs-fan__card img{width:100%;height:auto;display:block;border-radius:0 0 0 17px;box-shadow:0 26px 52px rgba(0,0,0,.34)}
   .gs-fan__card:nth-child(1){transform:translate(-50%,-50%) rotate(-15deg) translateX(-118px)}
   .gs-fan__card:nth-child(2){transform:translate(-50%,-50%) rotate(-5deg) translateX(-40px)}
   .gs-fan__card:nth-child(3){transform:translate(-50%,-50%) rotate(5deg) translateX(40px)}
@@ -711,7 +768,7 @@
         </div>
       </div>
       <div class="gs-hero__visual">
-        <img class="gs-hero__photo" src="illustrations/guillaume-hero.png" alt="Guillaume Simonin en conférence" />
+        <img class="gs-hero__photo" src="illustrations/guillaume-hero.webp" width="969" height="1050" fetchpriority="high" alt="Guillaume Simonin en conférence" />
         <div class="gs-hbadge gs-hbadge--tedx"><span class="gs-hbadge__ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 11l18-5v12L3 14z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg></span><div><b>TEDx</b><small>Speaker</small></div></div>
         <div class="gs-hbadge gs-hbadge--book"><span class="gs-hbadge__ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></span><div><b>Chroniqueur</b><small>BFM Business</small></div></div>
         <div class="gs-hbadge gs-hbadge--bfm"><span class="gs-hbadge__ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span><div><b>Auteur best-seller</b><small>40 000 ex.</small></div></div>
@@ -725,8 +782,8 @@
       <div>
         <p class="gs-logowall__label">Marques et institutions avec qui j'ai travaillé</p>
         <div class="marquee"><div class="marquee__track">
-          <img class="gs-logo-img" src="uploads/marquee/yiuqMhRyqF4F6fYYvU4Cfkqw5sw.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/b9B0RNCkyl95ZdnoJKXUClego9w.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/kW2lixWgxbI2054ymOllSPsN0Q.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/cg2SqG1iQdP5JAAW4c3SYUYuA.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/agUje1C3x4FXnVexWAaWHVh80g.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/z2KFSVMnSkz3vQsIxVwoC9Wwsw.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/vFo9m2OsmApOB4VvRVcV5Uorg.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/xAruEDqnJTLtoNOxnr7Ur0HpUTE.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/7bfGOIjmuvyD12uafkjOJKFxU.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/zlCWe1UN88813eOedRc8Ctxyk4.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/ing5lZWEk0rcy0zL6xknkhBhQFg.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/cuchI1OIoLM7SBXyPQiW7TwSCjw.png" alt="" />
-          <img class="gs-logo-img" src="uploads/marquee/yiuqMhRyqF4F6fYYvU4Cfkqw5sw.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/b9B0RNCkyl95ZdnoJKXUClego9w.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/kW2lixWgxbI2054ymOllSPsN0Q.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/cg2SqG1iQdP5JAAW4c3SYUYuA.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/agUje1C3x4FXnVexWAaWHVh80g.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/z2KFSVMnSkz3vQsIxVwoC9Wwsw.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/vFo9m2OsmApOB4VvRVcV5Uorg.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/xAruEDqnJTLtoNOxnr7Ur0HpUTE.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/7bfGOIjmuvyD12uafkjOJKFxU.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/zlCWe1UN88813eOedRc8Ctxyk4.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/ing5lZWEk0rcy0zL6xknkhBhQFg.png" alt="" /><img class="gs-logo-img" src="uploads/marquee/cuchI1OIoLM7SBXyPQiW7TwSCjw.png" alt="" />
+          <img class="gs-logo-img" loading="lazy" src="uploads/marquee/yiuqMhRyqF4F6fYYvU4Cfkqw5sw.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/b9B0RNCkyl95ZdnoJKXUClego9w.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/kW2lixWgxbI2054ymOllSPsN0Q.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/cg2SqG1iQdP5JAAW4c3SYUYuA.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/agUje1C3x4FXnVexWAaWHVh80g.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/z2KFSVMnSkz3vQsIxVwoC9Wwsw.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/vFo9m2OsmApOB4VvRVcV5Uorg.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/xAruEDqnJTLtoNOxnr7Ur0HpUTE.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/7bfGOIjmuvyD12uafkjOJKFxU.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/zlCWe1UN88813eOedRc8Ctxyk4.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/ing5lZWEk0rcy0zL6xknkhBhQFg.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/cuchI1OIoLM7SBXyPQiW7TwSCjw.png" alt="" />
+          <img class="gs-logo-img" loading="lazy" src="uploads/marquee/yiuqMhRyqF4F6fYYvU4Cfkqw5sw.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/b9B0RNCkyl95ZdnoJKXUClego9w.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/kW2lixWgxbI2054ymOllSPsN0Q.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/cg2SqG1iQdP5JAAW4c3SYUYuA.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/agUje1C3x4FXnVexWAaWHVh80g.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/z2KFSVMnSkz3vQsIxVwoC9Wwsw.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/vFo9m2OsmApOB4VvRVcV5Uorg.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/xAruEDqnJTLtoNOxnr7Ur0HpUTE.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/7bfGOIjmuvyD12uafkjOJKFxU.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/zlCWe1UN88813eOedRc8Ctxyk4.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/ing5lZWEk0rcy0zL6xknkhBhQFg.png" alt="" /><img class="gs-logo-img" loading="lazy" src="uploads/marquee/cuchI1OIoLM7SBXyPQiW7TwSCjw.png" alt="" />
         </div></div>
       </div>
     </div>
@@ -736,7 +793,7 @@
   <section class="section gs-tedxband" style="padding:8px 0 46px">
     <div class="container">
       <div class="gs-tedxband__frame" data-yt="P9fN5Ph-C7o">
-        <iframe class="gs-tedxband__iframe" src="https://www.youtube.com/embed/P9fN5Ph-C7o?autoplay=1&mute=1&loop=1&playlist=P9fN5Ph-C7o&rel=0&playsinline=1" title="TEDx — Combien coûte votre ignorance financière ?" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="gs-tedxband__iframe" src="https://www.youtube.com/embed/P9fN5Ph-C7o?autoplay=1&mute=1&loop=1&playlist=P9fN5Ph-C7o&rel=0&playsinline=1" title="TEDx : Combien coûte votre ignorance financière ?" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
         <div class="gs-tedxband__cap"><span class="gs-tedxband__tag">TEDx Limoges</span><span class="gs-tedxband__title">« Combien coûte votre ignorance financière ? »</span><button class="gs-tedxband__sound" id="gsTedxSound" aria-label="Activer le son" type="button"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5 6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg><span>Activer le son</span></button></div>
       </div>
     </div>
@@ -752,10 +809,10 @@
           <p class="body--lg">En 2022, j'ai créé les feuilles volantes : des fiches illustrées qui expliquent la finance et l'investissement simplement, visuellement, en une page.<br />Aujourd'hui suivies par plus de 150 000 personnes, elles sont aussi utilisées par des banques, des institutions financières et des conseillers pour éclairer leurs propres clients.</p>
         </div>
         <div class="gs-fan">
-          <div class="gs-fan__card"><img src="illustrations/feuilles/feuille-1.jpg" alt="Feuille volante" /></div>
-          <div class="gs-fan__card"><img src="illustrations/feuilles/feuille-2.jpg" alt="Feuille volante" /></div>
-          <div class="gs-fan__card"><img src="illustrations/feuilles/feuille-3.jpg" alt="Feuille volante" /></div>
-          <div class="gs-fan__card"><img src="illustrations/feuilles/feuille-4.jpg" alt="Feuille volante" /></div>
+          <div class="gs-fan__card"><img src="illustrations/feuilles/feuille-1.webp" width="857" height="1000" loading="lazy" alt="Feuille volante : l'assurance vie en une page" /></div>
+          <div class="gs-fan__card"><img src="illustrations/feuilles/feuille-2.webp" width="857" height="1000" loading="lazy" alt="Feuille volante : simulation d'un PER" /></div>
+          <div class="gs-fan__card"><img src="illustrations/feuilles/feuille-3.webp" width="857" height="1000" loading="lazy" alt="Feuille volante : la pyramide du patrimoine" /></div>
+          <div class="gs-fan__card"><img src="illustrations/feuilles/feuille-4.webp" width="857" height="1000" loading="lazy" alt="Feuille volante : les produits structurés" /></div>
         </div>
       </div>
     </div>
@@ -765,7 +822,7 @@
   <section class="section" id="livre" style="padding:70px 0">
     <div class="container">
       <div class="gs-book">
-        <div class="gs-book__cover"><img src="illustrations/livre-guide-visuel.png" alt="Le guide visuel d'éducation financière — Guillaume Simonin" /></div>
+        <div class="gs-book__cover"><img src="illustrations/livre-guide-visuel.webp" width="916" height="1300" loading="lazy" alt="Le guide visuel d'éducation financière, par Guillaume Simonin" /></div>
         <div class="stack gap-4">
           <span class="eyebrow">Le livre best-seller</span>
           <h2 class="h-1">Le guide visuel d'éducation financière</h2>
@@ -849,7 +906,7 @@
 
       <div class="gs-tabpanel" id="tab-sujets">
         <p class="gs-subtitle">Mes sujets</p>
-        <p class="body--lg" style="color:rgba(255,255,255,.85)">Le dénominateur commun : <strong style="color:#fff">l'éducation financière</strong>. À partir de là, j'adapte — bourse, fiscalité, budget — et je cale le propos sur votre salle : jeunes actifs, cadres, dirigeants, clients patrimoniaux.</p>
+        <p class="body--lg" style="color:rgba(255,255,255,.85)">Le dénominateur commun : <strong style="color:#fff">l'éducation financière</strong>. À partir de là, j'adapte (bourse, fiscalité, budget) et je cale le propos sur votre salle : jeunes actifs, cadres, dirigeants, clients patrimoniaux.</p>
       </div>
 
       <div class="gs-tabpanel" id="tab-formats">
@@ -864,7 +921,7 @@
         <p class="gs-subtitle">Sur mesure &amp; ce qui me distingue</p>
         <div class="grid-2">
           <p class="body--lg" style="color:rgba(255,255,255,.82)">Un sujet précis en tête ? Je crée une conférence dédiée : le fil et les feuilles volantes s'adaptent à votre thème.</p>
-          <p class="body--lg" style="color:rgba(255,255,255,.82)"><strong style="color:#fff">Je ne fais pas un cours, je traduis.</strong> L'expert sait ; le traducteur fait savoir. Chaque idée devient visuelle, mémorable, actionnable — et je parle à votre salle, pas à un amphi d'experts.</p>
+          <p class="body--lg" style="color:rgba(255,255,255,.82)"><strong style="color:#fff">Je ne fais pas un cours, je traduis.</strong> L'expert sait ; le traducteur fait savoir. Chaque idée devient visuelle, mémorable, actionnable. Et je parle à votre salle, pas à un amphi d'experts.</p>
         </div>
       </div>
       <div class="gs-cfmt gs-cfmt--1">
@@ -894,21 +951,21 @@
           <button class="gs-caselogo" data-case="ma">Matmut</button>
         </div>
         <div class="gs-casepanel" id="gsCasePanel">
-          <div class="gs-casepanel__pane on" data-case="ca"><div class="gs-casepane__logo"><img src="uploads/logo-credit-agricole.png" alt="Crédit Agricole" /></div><p class="gs-casepane__desc">Conférence grand public sur l'investissement en Bourse et masterclass pour les conseillers du réseau</p></div>
-          <div class="gs-casepanel__pane" data-case="lo"><div class="gs-casepane__logo"><img src="uploads/logo-loreal.png" alt="L'Oréal" /></div><p class="gs-casepane__desc">Conférence d'éducation financière pour les salariés du siège L'Oréal</p></div>
-          <div class="gs-casepanel__pane" data-case="te"><div class="gs-casepane__logo"><img src="uploads/logo-tedx.png" alt="TEDx" /></div><p class="gs-casepane__desc">« Combien coûte votre ignorance financière ? » Intervention TedX Limoges 2025</p></div>
-          <div class="gs-casepanel__pane" data-case="ma"><div class="gs-casepane__logo"><img src="uploads/logo-matmut.png" alt="Matmut" /></div><p class="gs-casepane__desc">Conférence au stadium Matmut à Lyon pour les clients de Matmut</p></div>
+          <div class="gs-casepanel__pane on" data-case="ca"><div class="gs-casepane__logo"><img loading="lazy" src="uploads/logo-credit-agricole.png" alt="Crédit Agricole" /></div><p class="gs-casepane__desc">Conférence grand public sur l'investissement en Bourse et masterclass pour les conseillers du réseau</p></div>
+          <div class="gs-casepanel__pane" data-case="lo"><div class="gs-casepane__logo"><img loading="lazy" src="uploads/logo-loreal.png" alt="L'Oréal" /></div><p class="gs-casepane__desc">Conférence d'éducation financière pour les salariés du siège L'Oréal</p></div>
+          <div class="gs-casepanel__pane" data-case="te"><div class="gs-casepane__logo"><img loading="lazy" src="uploads/logo-tedx.png" alt="TEDx" /></div><p class="gs-casepane__desc">« Combien coûte votre ignorance financière ? » Intervention TedX Limoges 2025</p></div>
+          <div class="gs-casepanel__pane" data-case="ma"><div class="gs-casepane__logo"><img loading="lazy" src="uploads/logo-matmut.png" alt="Matmut" /></div><p class="gs-casepane__desc">Conférence au stadium Matmut à Lyon pour les clients de Matmut</p></div>
         </div>
       </div>
       </div>
       <div class="gs-conf-right">
         <div class="gs-cf">
           <div class="gs-cf__stage" id="gsCfStage">
-            <div class="gs-cf__slide"><img src="uploads/TedX.jpg" alt="Guillaume Simonin sur scène TEDx" style="width:100%;height:100%;object-fit:cover" /><div class="gs-cf__cap">TEDx · « Combien coûte votre ignorance financière ? »</div></div>
-            <div class="gs-cf__slide"><img src="uploads/loreal-conf.jpg" alt="Conférence L'Oréal — éducation financière" style="width:100%;height:100%;object-fit:cover" /><div class="gs-cf__cap">L'Oréal</div></div>
-            <div class="gs-cf__slide"><img src="uploads/credit-agricole-conf.jpg" alt="Conférence Crédit Agricole des Savoie" style="width:100%;height:100%;object-fit:cover" /><div class="gs-cf__cap">Crédit Agricole des Savoie</div></div>
-            <div class="gs-cf__slide"><img src="uploads/paris-investor-week.jpg" alt="Paris Investor Week" style="width:100%;height:100%;object-fit:cover" /><div class="gs-cf__cap">Paris Investor Week</div></div>
-            <div class="gs-cf__slide"><img src="uploads/aktionnaire-day.jpg" alt="Aktionnaire Day — Trade Republic" style="width:100%;height:100%;object-fit:cover" /><div class="gs-cf__cap">Aktionnaire Day</div></div>
+            <div class="gs-cf__slide"><img loading="lazy" src="uploads/TedX.jpg" alt="Guillaume Simonin sur scène TEDx" style="width:100%;height:100%;object-fit:cover" /><div class="gs-cf__cap">TEDx · « Combien coûte votre ignorance financière ? »</div></div>
+            <div class="gs-cf__slide"><img loading="lazy" src="uploads/loreal-conf.jpg" alt="Conférence L'Oréal sur l'éducation financière" style="width:100%;height:100%;object-fit:cover" /><div class="gs-cf__cap">L'Oréal</div></div>
+            <div class="gs-cf__slide"><img loading="lazy" src="uploads/credit-agricole-conf.jpg" alt="Conférence Crédit Agricole des Savoie" style="width:100%;height:100%;object-fit:cover" /><div class="gs-cf__cap">Crédit Agricole des Savoie</div></div>
+            <div class="gs-cf__slide"><img loading="lazy" src="uploads/paris-investor-week.jpg" alt="Paris Investor Week" style="width:100%;height:100%;object-fit:cover" /><div class="gs-cf__cap">Paris Investor Week</div></div>
+            <div class="gs-cf__slide"><img loading="lazy" src="uploads/aktionnaire-day.jpg" alt="Aktionnaire Day de Trade Republic" style="width:100%;height:100%;object-fit:cover" /><div class="gs-cf__cap">Aktionnaire Day</div></div>
           </div>
           <div class="gs-cf__nav">
             <button class="gs-cf__arrow" data-dir="-1" aria-label="Précédent">‹</button>
@@ -1215,7 +1272,7 @@
         "\nTéléphone : " + (d.telephone || "") + "\nDate : " + (d.date || "") +
         "\nLieu : " + (d.lieu || "") + "\nType : " + (d.type || "") +
         "\n\nMessage :\n" + (d.message || "");
-      var subject = "Demande de conférence — " + (d.prenom || "") + " " + (d.nom || "");
+      var subject = "Demande de conférence - " + (d.prenom || "") + " " + (d.nom || "");
       window.location.href = "mailto:hello@wizify.fr?subject=" +
         encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
     }
@@ -1227,7 +1284,7 @@
       btn.disabled = true; btn.textContent = "Envoi…"; if (msg) { msg.textContent = ""; msg.style.color = ""; }
       var payload = Object.assign({
         access_key: W3F_KEY,
-        subject: "Nouvelle demande de conférence — site Guillaume Simonin",
+        subject: "Nouvelle demande de conférence - site Guillaume Simonin",
         from_name: "Site Guillaume Simonin"
       }, data());
       fetch("https://api.web3forms.com/submit", {
