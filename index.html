@@ -336,6 +336,9 @@
   .of-site.hero-fade .gs-partner__d{color:var(--of-ink-2)}
   .gs-form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
   .gs-form-grid .gs-col-full{grid-column:1/-1}
+  /* évite le débordement des inputs (surtout date/time sur iOS) dans la grille */
+  .of-site .ds-field-input{min-width:0;max-width:100%}
+  .of-site input[type="date"].ds-field-input,.of-site input[type="time"].ds-field-input{-webkit-appearance:none;appearance:none}
   .of-site.page-dark .ds-field-input{background:#fff;border-color:rgba(255,255,255,.22);color:#141628;box-shadow:0 2px 6px rgba(0,0,0,.16),0 14px 34px rgba(10,14,45,.42),inset 0 1px 0 rgba(255,255,255,.9)}
   .of-site.page-dark .ds-field-input::placeholder{color:#8a90a6}
   .of-site.page-dark .ds-field-label{color:#fff}
