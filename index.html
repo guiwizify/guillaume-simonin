@@ -1237,7 +1237,7 @@
           if (j.success) {
             form.reset();
             btn.textContent = "Demande envoyée ✓"; btn.disabled = false;
-            if (msg) { msg.style.color = "#0a7d4b"; msg.textContent = "Merci, je reviens vers vous sous 24h."; }
+            if (msg) { msg.style.color = "var(--accent, #26DEB5)"; msg.textContent = "Merci, je reviens vers vous sous 24h."; }
           } else { throw new Error(j.message || "Échec de l'envoi"); }
         })
         .catch(function () {
